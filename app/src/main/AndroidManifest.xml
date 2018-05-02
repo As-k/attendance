@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.aks.attendence">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name="com.aks.attendence.MainActivity"
+            android:windowSoftInputMode="adjustResize">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.aks.attendence.WelcomeActivity"/>
+        <activity
+            android:name="com.aks.attendence.SemesterDetailsActivity"
+            android:windowSoftInputMode="adjustResize" />
+        <activity
+            android:name="com.aks.attendence.SubjectActivity"
+            android:windowSoftInputMode="adjustResize" />
+        <activity
+            android:name="com.aks.attendence.AddSubjectActivity"
+            android:windowSoftInputMode="adjustResize" />
+        <activity android:name="com.aks.attendence.MondayActivity" />
+        <activity android:name="com.aks.attendence.TuesdayActivity" />
+        <activity android:name="com.aks.attendence.WednesdayActivity" />
+        <activity android:name="com.aks.attendence.ThursdayActivity" />
+        <activity android:name="com.aks.attendence.FridayActivity" />
+        <activity android:name="com.aks.attendence.SaturdayActivity" />
+        <activity android:name="com.aks.attendence.HomeActivity" />
+        <activity android:name="com.aks.attendence.TimeTableActivity" />
+        <activity android:name="com.aks.attendence.AddBunkActivity" />
+        <activity android:name="com.aks.attendence.ViewBunkActivity" />
+        <activity android:name="com.aks.attendence.HallOfFameActivity" />
+        <activity android:name="com.aks.attendence.AlertsAttendanceActivity" ></activity>
+    </application>
+
+</manifest>

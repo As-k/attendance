@@ -1,0 +1,41 @@
+<LinearLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:id="@+id/enter_dtl"
+    android:gravity="center"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <TextView
+        android:text="Enter Details"
+        android:textSize="30sp"
+        style="@style/text_view_style"
+        android:layout_marginBottom="50dp"/>
+
+    <EditText
+        style="@style/edit_text_style"
+        android:hint="Semester"
+        android:inputType="number"
+        android:ems="10"
+        android:maxLength="2"
+        android:layout_marginBottom="10dp"
+        android:id="@+id/semester"/>
+
+    <EditText
+        style="@style/edit_text_style"
+        android:hint="Starting Date"
+        android:inputType="date"
+        android:layout_marginBottom="15dp"
+        android:id="@+id/semester_date"
+        android:ems="10"
+        android:drawableRight="@drawable/calendar"
+        android:paddingRight="10dp"
+        android:onClick="datePick"
+        />
+
+    <Button
+        style="@style/button_style"
+        android:text="Submit"
+        android:id="@+id/semester_save"
+        android:onClick="saveSemester"/>
+
+</LinearLayout>

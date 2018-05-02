@@ -1,0 +1,86 @@
+<LinearLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:gravity="center"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <android.support.design.widget.TabLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:id="@+id/tl1"
+        android:background="@color/project_text_colorPrimary"
+        app:tabSelectedTextColor="@color/bg_color"
+        app:tabIndicatorColor="@color/bg_color"
+        app:tabTextColor="@color/tab_color">
+
+        <android.support.design.widget.TabItem
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tab_mon"
+            android:text="Mon" />
+        <android.support.design.widget.TabItem
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tab_tue"
+            android:text="Tue"/>
+        <android.support.design.widget.TabItem
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tab_wed"
+            android:text="Wed"/>
+        <android.support.design.widget.TabItem
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tab_thur"
+            android:text="Thu"/>
+        <android.support.design.widget.TabItem
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tab_fri"
+            android:text="Fir"/>
+        <android.support.design.widget.TabItem
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tab_sat"
+            android:text="Sat"/>
+
+    </android.support.design.widget.TabLayout>
+
+    <fragment
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/mon_fg"
+        class="com.aks.attendence.MondayFragment"/>
+
+    <!--<fragment-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="match_parent"-->
+        <!--android:id="@+id/tue_fg"-->
+        <!--claattendancetrackertrackerence.TuesdayFragment"/>-->
+
+    <!--<fragment-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="match_parent"-->
+        <!--android:id="@+id/wed_fg"-->
+        <!--claattendancetrackertrackerence.WednesdayFragment"/>-->
+
+    <!--<fragment-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="match_parent"-->
+        <!--android:id="@+id/thur_fg"-->
+        <!--claattendancetrackertrackerence.ThursdayFragment"/>-->
+
+    <!--<fragment-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="match_parent"-->
+        <!--android:id="@+id/fri_fg"-->
+        <!--claattendancetrackertrackerence.FridayFragment"/>-->
+
+    <!--<fragment-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="match_parent"-->
+        <!--android:id="@+id/sat_fg"-->
+        <!--claattendancetrackertrackerence.SaturdayFragment"/>-->
+
+</LinearLayout>

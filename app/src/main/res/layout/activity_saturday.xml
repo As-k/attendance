@@ -1,0 +1,261 @@
+<LinearLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Saturday"
+        style="@style/text_view_style"
+        android:textSize="30sp"
+        android:layout_marginBottom="40dp"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:gravity="center">
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp">
+
+                <TableRow>
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:layout_height="wrap_content"
+                        android:text="10:00"
+                        android:textStyle="bold"
+                        android:textSize="18dp"
+                        android:textAlignment="center"
+                        android:textColor="@color/project_text_colorPrimary"
+                        android:layout_margin="10dp"/>
+                    <Spinner
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="10dp"
+                        android:id="@+id/mon_spin1"
+                        android:textAlignment="center">
+
+                    </Spinner>
+                </TableRow>
+
+                <TableRow>
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:layout_height="wrap_content"
+                        android:text="11:00"
+                        android:textStyle="bold"
+                        android:textSize="18dp"
+                        android:textAlignment="center"
+                        android:textColor="@color/project_text_colorPrimary"
+                        android:layout_margin="10dp"/>
+                    <Spinner
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="10dp"
+                        android:layout_weight="1"
+                        android:id="@+id/mon_spin2"
+                        android:textAlignment="center">
+
+                    </Spinner>
+                </TableRow>
+
+                <TableRow>
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:layout_height="wrap_content"
+                        android:text="12:00"
+                        android:textStyle="bold"
+                        android:textSize="18dp"
+                        android:textAlignment="center"
+                        android:textColor="@color/project_text_colorPrimary"
+                        android:layout_margin="10dp"/>
+                    <Spinner
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="10dp"
+                        android:layout_weight="1"
+                        android:id="@+id/mon_spin3"
+                        android:textAlignment="center">
+
+                    </Spinner>
+                </TableRow>
+
+                <TableRow>
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:layout_height="wrap_content"
+                        android:text="01:00"
+                        android:textStyle="bold"
+                        android:textSize="18dp"
+                        android:textAlignment="center"
+                        android:textColor="@color/project_text_colorPrimary"
+                        android:layout_margin="10dp"/>
+                    <Spinner
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="10dp"
+                        android:layout_weight="1"
+                        android:id="@+id/mon_spin4"
+                        android:textAlignment="center">
+
+                    </Spinner>
+                </TableRow>
+
+                <TableRow>
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:layout_height="wrap_content"
+                        android:text="02:00"
+                        android:textStyle="bold"
+                        android:textSize="18dp"
+                        android:textAlignment="center"
+                        android:textColor="@color/project_text_colorPrimary"
+                        android:layout_margin="10dp"/>
+                    <Spinner
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="10dp"
+                        android:layout_weight="1"
+                        android:id="@+id/mon_spin5"
+                        android:textAlignment="center">
+
+                    </Spinner>
+                </TableRow>
+
+                <TableRow>
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:layout_height="wrap_content"
+                        android:text="03:00"
+                        android:textStyle="bold"
+                        android:textSize="18dp"
+                        android:textAlignment="center"
+                        android:textColor="@color/project_text_colorPrimary"
+                        android:layout_margin="10dp"/>
+                    <Spinner
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="10dp"
+                        android:layout_weight="1"
+                        android:id="@+id/mon_spin6"
+                        android:textAlignment="center">
+
+                    </Spinner>
+                </TableRow>
+
+                <TableRow>
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:layout_height="wrap_content"
+                        android:text="04:00"
+                        android:textStyle="bold"
+                        android:textSize="18dp"
+                        android:textAlignment="center"
+                        android:textColor="@color/project_text_colorPrimary"
+                        android:layout_margin="10dp"/>
+
+                    <Spinner
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="10dp"
+                        android:layout_weight="1"
+                        android:id="@+id/mon_spin7"
+                        android:textAlignment="center">
+                    </Spinner>
+                </TableRow>
+
+                <TableRow>
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:layout_height="wrap_content"
+                        android:text="05:00"
+                        android:textStyle="bold"
+                        android:textSize="18dp"
+                        android:textAlignment="center"
+                        android:textColor="@color/project_text_colorPrimary"
+                        android:layout_margin="10dp"/>
+                    <Spinner
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="10dp"
+                        android:layout_weight="1"
+                        android:id="@+id/mon_spin8"
+                        android:textAlignment="center">
+
+                    </Spinner>
+                </TableRow>
+
+                <TableRow>
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:layout_height="wrap_content"
+                        android:text="06:00"
+                        android:textStyle="bold"
+                        android:textSize="18dp"
+                        android:textAlignment="center"
+                        android:textColor="@color/project_text_colorPrimary"
+                        android:layout_margin="10dp"/>
+                    <Spinner
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="10dp"
+                        android:layout_weight="1"
+                        android:id="@+id/mon_spin9"
+                        android:textAlignment="center">
+
+                    </Spinner>
+                </TableRow>
+
+                <TableRow>
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:layout_height="wrap_content"
+                        android:text="07:00"
+                        android:textStyle="bold"
+                        android:textSize="18dp"
+                        android:textAlignment="center"
+                        android:textColor="@color/project_text_colorPrimary"
+                        android:layout_margin="10dp"/>
+
+                    <Spinner
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="10dp"
+                        android:layout_weight="1"
+                        android:id="@+id/mon_spin10"
+                        android:textAlignment="center">
+                    </Spinner>
+                </TableRow>
+
+            </TableLayout>
+
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/monday_save"
+                android:text="Save"
+                style="@style/button_style"
+                android:onClick="nextTue"/>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

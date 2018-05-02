@@ -1,0 +1,42 @@
+<LinearLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:id="@+id/welcome"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <TextView
+        android:text="Welcome"
+        android:textSize="30sp"
+        style="@style/text_view_style"
+        android:layout_marginBottom="50dp"/>
+
+    <EditText
+        style="@style/edit_text_style"
+        android:hint="Name"
+        android:inputType="text"
+        android:layout_marginBottom="10dp"
+        android:id="@+id/name"/>
+
+    <EditText
+        style="@style/edit_text_style"
+        android:hint="University Name"
+        android:inputType="text"
+        android:layout_marginBottom="10dp"
+        android:id="@+id/university"/>
+
+    <EditText
+        android:id="@+id/minimum_percentage"
+        style="@style/edit_text_style"
+        android:layout_marginBottom="20dp"
+        android:hint="Minimum Attendance %"
+        android:inputType="number"
+        android:maxLength="2"/>
+
+    <Button
+        style="@style/button_style"
+        android:text="Submit"
+        android:id="@+id/submit_details"
+        android:onClick="saveDetails"/>
+
+</LinearLayout>

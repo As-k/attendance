@@ -1,0 +1,103 @@
+<LinearLayout
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:id="@+id/home_ll"
+    android:background="@color/bg_color"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:orientation="horizontal"
+        android:gravity="center">
+
+        <ImageButton
+            android:id="@+id/home_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/home"
+            style="?android:attr/borderlessButtonStyle"
+            android:onClick="homePage"/>
+
+        <TextView
+            style="@style/text_view_style"
+            android:layout_marginLeft="50dp"
+            android:text="Attendance"
+            android:textSize="30sp"
+            android:paddingRight="35dp"
+            android:textAlignment="center"/>
+
+    </LinearLayout>
+
+    <TableLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <TableRow
+            android:layout_marginBottom="20dp">
+            <Button
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                style="@style/button_style"
+                android:id="@+id/addBunk"
+                android:text="Add Bunk"
+                android:layout_marginRight="40dp"
+                android:onClick="addBunk"/>
+
+            <Button
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                style="@style/button_style"
+                android:id="@+id/viewBunk"
+                android:text="View Bunk"
+                android:onClick="viewBunk"/>
+
+        </TableRow>
+
+        <TableRow
+            android:layout_marginBottom="20dp">
+            <Button
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                style="@style/button_style"
+                android:id="@+id/alert"
+                android:text="Alerts"
+                android:layout_marginRight="40dp"
+                android:onClick="alertsAttendance"/>
+
+            <Button
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                style="@style/button_style"
+                android:id="@+id/hallOfFame"
+                android:text="Hall Of Fame"
+                android:textSize="18dp"
+                android:onClick="hallOfFame"/>
+
+        </TableRow>
+
+        <TableRow
+            android:layout_marginBottom="20dp">
+            <Button
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                style="@style/button_style"
+                android:id="@+id/reset"
+                android:text="Reset"
+                android:layout_marginRight="40dp"
+                android:onClick="resetApp"/>
+
+            <Button
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                style="@style/button_style"
+                android:id="@+id/timetable"
+                android:text="Timetable"
+                android:onClick="timeTable"/>
+        </TableRow>
+
+    </TableLayout>
+
+</LinearLayout>
